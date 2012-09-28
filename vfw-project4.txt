@@ -1,7 +1,5 @@
-Marylia Nieves VFW 1208 Week 4
+Marylia Nieves MiU 1210 Week 1
 Git Hub Links:
-https://github.com/marylian/VisualFrameWorks-Project-4
 https://github.com/marylian
+https://github.com/marylian/Nieves_Marylia_Project1
 
-gh-pages
-http://marylian.github.com/VisualFrameWorks-Project-4/
