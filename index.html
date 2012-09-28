@@ -9,6 +9,7 @@
 		<meta charset="utf-8"/>
 		<meta name="description" content= "Our very first HTML Document!"/>
 		<meta name="keywords" content="html5, mobile development, Full Sail University"/>
+		
 		<!--Allows search engine robots to index our page in a search engine and follow links on our page.-->
 		<meta name="robots" content="index, follow"/>
 		
@@ -18,12 +19,11 @@
 		<!--Allows our content to size correctly to an iPhone display-->
 		<meta name="viewport" content= "user-scalable=no, width=device-width"/>
 		
-		
 		<!--Document Title-->
 		<title>Weekly Teacher Tasks</title>
 		
 		<!--Import our CSS styles-->
-		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
 		
 		 <!--Call Javascript file-->
 		 <!--<script src=js/main.js" type=text/javascript"></script>-->
@@ -33,18 +33,20 @@
 	<!--Heading Group-->
 		<header>
 			<hgroup>
-    			<h1>Weekly Teacher Tasks</h1>
-    			<h2> An app that saves all your weekly tasks into a convenient planner</h2>
-    			<h3>Get Started Now!</h3>
+				<div id="CTA Group" align="center">
+    				<h2>Weekly Teacher Tasks</h2>
+    				<!--CTA Image-->
+    				<a href="additem.html" id="taskForm"><img src="images/taskimage.jpg"width="250px" height="150px" border="0"></a>
+    			</div>
     		</hgroup>
-  		</header> 
+  		</header>
 		<!--Paragraph Tag-->
-    	<p><a href="additem.html"> Add a Task</a></p>
-		<div id="search">
+		<div id="Search">
     		<h3>Search</h3>
     		<input type="search" id="searchsubmit" placeholder="Search Tasks"/>
     		<input type="submit" class="submit" value="Search"/>
     	</div>
+    	<!--Added Browse links-->
     	<div id="Task Links">
     		<h3>Perform Task</h3>
     		<ul data-role="listview" data-inset="true" data-theme="d" data-filter="false">
